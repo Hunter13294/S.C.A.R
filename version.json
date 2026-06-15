@@ -1,0 +1,5 @@
+{
+    "version": "1.0.8",
+    "build": 1080,
+    "notes": "Security: all LAN traffic between your PCs is now encrypted and authenticated with a shared key. Previously any device on the network could send forged input the receiver would replay, and traffic was sent in clear text. Packets that don't match the key are now dropped, which also stops spoofed replies and no longer broadcasts your PC name in the clear. Leave the new Connection Key blank to use the built-in default, or set the SAME custom key on both PCs for full protection. Restart the relay after changing it. NOTE: both PCs must be on 1.0.8 to talk to each other."
+}
