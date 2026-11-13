@@ -27,7 +27,7 @@ network key.
 - **Takeover** — press a PC's key and your keyboard and mouse drive that PC directly. Press it again to come back.
 - **Mirror** — your keyboard and mouse drive every PC at once.
 - **Stick mirror** — use your sticks on another PC through vJoy (optional).
-- **Gunner Cam** — see the receiver PCs' screens (or parts of them) as small windows over your game.
+- **Remote View** — see the receiver PCs' screens (or parts of them) as small windows over your game.
 - **Status overlay** — a small always-on-top readout over the game: who is connected, which keys are held.
 - **Anti-AFK** — keeps a game from logging you out while you are busy on another PC.
 - **Phone remote** — scan a QR code and control S.C.A.R from your phone.
@@ -59,6 +59,11 @@ one click. You can also check by hand in Settings > Updates.
 ![The update screen](images/update-card.png)
 
 Each PC updates itself. The Dashboard warns you when two PCs run different builds.
+
+## Credits
+
+Made by [Hunter13294](https://github.com/Hunter13294), built with [Claude Code](https://claude.com/claude-code)
+(Anthropic).
 
 ---
 
