@@ -1,8 +1,8 @@
 # S.C.A.R — SC Account Relay
 
-**Fly one ship, crew it from every PC.**
-S.C.A.R lets one player control Star Citizen on several PCs at once. The pilot PC sends key presses, mouse aim and
-joystick input over your home network to the gunner PCs, so one person can run a whole crew.
+**Fly one ship, crew it from multiple PCs.**
+S.C.A.R lets one player control Star Citizen on several PCs at once. The sender PC sends key presses, mouse aim and
+joystick input over your home network to the receiver PCs, so one person can run a whole crew to an extent.
 
 [**⬇ Download the latest Setup**](https://github.com/Hunter13294/S.C.A.R/releases/latest)
 
@@ -12,21 +12,22 @@ joystick input over your home network to the gunner PCs, so one person can run a
 
 ## How it works
 
-Install S.C.A.R on every PC. One PC is the **Sender** (the pilot). The others are **Receivers** (the gunners, the
-turret, the salvage PC). Press Start on each, and the Sender's binds are played on the Receivers.
+Install S.C.A.R on every PC. One PC is the **Sender**: the PC you play on. The others are **Receivers**: the PCs it
+controls, for example a turret or a salvage PC. Press Start on each, and the Sender's binds are played on the
+Receivers.
 
 All traffic stays on your own network. It is encrypted, and a PC only accepts input from PCs that use the same
 network key.
 
 ## What it does
 
-- **Key Bindings** — map any key, mouse button, joystick button or hat on the pilot PC to a key on a gunner PC.
+- **Key Bindings** — map any key, mouse button, joystick button or hat on the sender PC to a key on a receiver PC.
   Combos (Alt + R), two-way binds, and a list per PC or one shared list.
-- **Mouse aim** — relay a stick or the mouse as aim on a gunner PC, with a per-PC aim scale so turrets track the same.
+- **Mouse aim** — relay a stick or the mouse as aim on a receiver PC, with a per-PC aim scale so receivers track the same.
 - **Takeover** — press a PC's key and your keyboard and mouse drive that PC directly. Press it again to come back.
 - **Mirror** — your keyboard and mouse drive every PC at once.
-- **Stick mirror** — fly another PC with your own joysticks through vJoy (optional).
-- **Gunner Cam** — see the gunner PCs' screens (or parts of them) as small windows over your game.
+- **Stick mirror** — use your sticks on another PC through vJoy (optional).
+- **Gunner Cam** — see the receiver PCs' screens (or parts of them) as small windows over your game.
 - **Status overlay** — a small always-on-top readout over the game: who is connected, which keys are held.
 - **Anti-AFK** — keeps a game from logging you out while you are busy on another PC.
 - **Phone remote** — scan a QR code and control S.C.A.R from your phone.
@@ -42,7 +43,7 @@ network key.
    [latest release](https://github.com/Hunter13294/S.C.A.R/releases/latest).
 2. Run it on every PC. Windows may show a SmartScreen warning because the installer is not signed:
    click **More info**, then **Run anyway**.
-3. Open S.C.A.R, pick **Sender** on the pilot PC and **Receiver** on the others, and set the same network key on all
+3. Open S.C.A.R, pick **Sender** on the PC you play on and **Receiver** on the others, and set the same network key on all
    of them (Settings > Connection).
 
 S.C.A.R asks for administrator rights when it starts. Windows blocks input sent into programs that run as
